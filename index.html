@@ -38,8 +38,22 @@
   		<h2>Advance Search</h2>
             <br>
 			<button type="button" class="collapsible">Keywords/Item #s and Options</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
+				<div class="content">
+					<form action="">
+						<label for="Keywords or Item Numbers: ">Keywords or Item Numbers: </label><br>
+						<input type="text" id="Keywords or Item Numbers: " name="Keywords or Item Numbers: "><br>
+					
+					<label for="Keyword Options">Keyword Options: </label>
+						<select name="All Words, Any Order" id="All Words, Any Order">
+							<option value="All Words, Any Order">All Words, Any Order</option>
+							<option value="Any Words, Any Order">Any Words, Any Order</option>
+							<option value="Exact Words, Exact Order">Exact Words, Exact Order</option>
+							<option value="Exact Words, Any Order">Exact Words, Any Order</option>
+						</select>
+						<form action="">
+							<label for="Exclude Words: ">Exclude Words: </label><br>
+							<input type="text" id="Exclude Words: " name="Exclude Words: "><br>
+					  	</form> <br>
 			</div>
 			<button type="button" class="collapsible">Categories</button>
 			<div class="content">
