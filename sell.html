@@ -34,80 +34,113 @@
 
 <body>
 	<div id="col-1">
-  		<h2>Advance Search</h2>
-            <br>
-			<button type="button" class="collapsible">Keywords/Item #s and Options</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
-			</div>
-			<button type="button" class="collapsible">Categories</button>
-			<div class="content">
-			  <p>Toys</p>
-			  <p>Electronics</p>
-			</div>
-			<button type="button" class="collapsible">Search Including</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
-			</div>
-            <button type="button" class="collapsible">Price</button>
-			<div class="content">
-			  <p>Show Items priced from $0-50 </p>
-			  <input type="range" id="min" value="0" placeholder="Min Price" min="0" max="50" oninput="rangeValue.innerText = this.value">
-			  <p id="rangeValue">0</p>
-			</div>
-            <button type="button" class="collapsible">Buying Format</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
-			</div>
-            <button type="button" class="collapsible">Condition</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
-			</div>
-            <button type="button" class="collapsible">Show Results</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
-			</div>
-            <button type="button" class="collapsible">Shipping Options</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
-            </div>
-            <button type="button" class="collapsible">Item Location</button>
-			<div class="content">
-			  <input type="checkbox" id="local" value="Local">
+		<h2>Advance Search</h2>
+		  <br>
+		  <div class="center">
+			<input type="button" value="Submit">
+			<input type="button" value="Reset">
+		</div>
+		<br>
+		  <button type="button" class="collapsible">Keywords / Item #'s and Options</button>
+		  <div class="content">
+			<p>Lorem ipsum</p>
+		  </div>
+		  <button type="button" class="collapsible">Categories</button>
+		  <div class="content">
+			<p>Toys</p>
+			<p>Electronics</p>
+		  </div>
+		  <button type="button" class="collapsible">Search Including</button>
+		  <div class="content">
+			<p>Lorem ipsum</p>
+		  </div>
+		  <button type="button" class="collapsible">Price</button>
+		  <div class="content">
+			<p>Show Items priced from $0-50 </p>
+			<input type="range" id="min" value="0" placeholder="Min Price" min="0" max="50" oninput="rangeValue.innerText = this.value">
+			<p id="rangeValue">0</p>
+		  </div>
+		  <button type="button" class="collapsible">Buying Format</button>
+			  <div class="content">
+				  <input type="checkbox" id="BUYF" value="BUYF">
+				  <label for="BUYF">Buy</label> <br>
+				  <input type="checkbox" id="BIDF" value="BIDF">
+				  <label for="BIDF">Bid</label> <br>
+		  </div>
+		  <button type="button" class="collapsible">Condition</button>
+		  <div class="content">
+			<input type="radio" id="Damaged" value="Damaged" name="condition">
+				<label for="Damaged">Damaged</label> <br>
+				<input type="radio" id="used" value="Used" name="condition">
+				<label for="used">Used</label> <br>
+				<input type="radio" id="New" value="New" name="condition">
+				<label for="New">New</label> <br>
+				<input type="radio" id="Sealed" value="Sealed" name="condition">
+				<label for="Sealed">Sealed</label> <br>
+		  </div>
+		  <button type="button" class="collapsible">Show Results</button>
+			  <div class="content">
+				  <input type="checkbox" id="" value="">
+				  <label for=""></label> <br>
+		  </div>
+		  <button type="button" class="collapsible">Shipping Options</button>
+			  <div class="content">
+				  <input type="checkbox" id="IP" value="IP">
+				  <label for="IP">In Person</label> <br>
+				  <input type="checkbox" id="Shipping" value="Shipping">
+				  <label for="Shipping">Shipping</label> <br>
+				  <input type="checkbox" id="DOLock" value="DOLock">
+				  <label for="DOLock">Drop Off Locker</label> <br>
+		  </div>
+		  <button type="button" class="collapsible">Item Location</button>
+		  <div class="content">
+			<input type="checkbox" id="local" value="Local">
 			  <label for="local">Local</label> <br>
 			  <input type="checkbox" id="NA" value="NA">
 			  <label for="NA">North America</label> <br>
 			  <input type="checkbox" id="Worldwide" value="WorldWide">
 			  <label for="Worldwide">Worldwide</label> <br>
-            </div>
-            <button type="button" class="collapsible">Seller</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
-            </div>
-            <button type="button" class="collapsible">Results</button>
-			<div class="content">
-			  <p>Lorem ipsum</p>
-            </div>
-            <br>
-            <br>
-            <div class="center">
-                <input type="button" value="Submit">
-                <input type="button" value="Reset">
-            </div>
-            <br>
-	</div>
+		  </div>
+		  <button type="button" class="collapsible">Seller</button>
+			  <div class="content">
+				  <input type="checkbox" id="5Star" value="5Star">
+				  <label for="5 Star Rated">5 Star Rated</label> <br>
+				  <input type="checkbox" id="4Star" value="4Star">
+				  <label for="4 Star Rated">4 Star Rated</label> <br>
+				  <input type="checkbox" id="3Star" value="3Star">
+				  <label for="3 Star Rated">3 Star Rated</label> <br>
+				  <input type="checkbox" id="2Star" value="2Star">
+				  <label for="2 Star Rated">2 Star Rated</label> <br>
+				  <input type="checkbox" id="1Star" value="1Star">
+				  <label for="1 Star Rated">1 Star Rated</label> <br>
+		  </div>
+		  <button type="button" class="collapsible">Results</button>
+		  <div class="content">
+			<p>Lorem ipsum</p>
+		  </div>
+		  <br>
+		  <br>
+		  <div class="center">
+			  <input type="button" value="Submit">
+			  <input type="button" value="Reset">
+		  </div>
+		  <br>
+  </div>
 	
 	<div id="col-2">
-        <a href="index.html">
-            <h1>Ebay</h1></a>
+		<div class="logo">
+        	<a href="index.html">
+            	<span style="color: red;">E</span><span style="color: blue;">b</span><span style="color: yellow;">a</span><span style="color: green;">y</span>
+			</a>
+		</div>
             <input type="search" id="site-search" name="q">
             <button>Search</button>
             <br>
             <br>
 			<div class="center">
-				<a href="help.html"><input type="button" value="Help" style="height:50px; width:100px"></a>
-				<a href="buy.html"><input type="button" value="Buy" style="height:50px; width:100px"></a>
-				<a href="sell.html"><input type="button" value="Sell" style="height:50px; width:100px"></a>
+				<a href="help.html"><input type="button" value="Help" style="height:50px; width:100px; cursor: pointer;"></a>
+				<a href="buy.html"><input type="button" value="Buy" style="height:50px; width:100px;  cursor: pointer;"></a>
+				<a href="sell.html"><input type="button" value="Sell" style="height:50px; width:100px;  cursor: pointer;"></a>
 				<input type="button" value="Account" style="height:50px; width:100px">
 			</div>
 			<br>
