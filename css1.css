@@ -89,3 +89,7 @@ a:active {
   cursor: pointer;
 }
 
+
+select {
+  text-align: center;
+}
