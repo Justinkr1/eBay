@@ -61,18 +61,24 @@
 				<form action="">
 					<label for="Exclude Words: ">Exclude Words: </label><br>
 					<input type="text" id="Exclude Words: " name="Exclude Words: "><br>
-				  </form> <br>
+				  </form> 
 		  </div>
 		  <button type="button" class="collapsible">Categories</button>
 		  <div class="content">
-			<p>Toys</p>
-			<p>Motors</p>
-			<p>Electronics</p>
-			<p>Collectibles</p>
-			<p>Home & Garden</p>
-			<p>Fashion</p>
-			<p>Toys</p>
-			<p>Sporting Goods</p>
+			<input type="radio" id="Toys" value="Toys">
+			<label for="Toys">Toys</label><br>
+			<input type="radio" id="Motors" value="Motors">
+			<label for="Motors">Motors</label><br>
+			<input type="radio" id="Electronics" value="Electronics">
+			<label for="Electronics">Electronics</label><br>
+			<input type="radio" id="Collectibles" value="Collectibles">
+			<label for="Collectibles">Collectibles</label><br>
+			<input type="radio" id="Home & Garden" value="Home & Garden">
+			<label for="Home & Garden">Home & Garden</label><br>
+			<input type="radio" id="Fashion" value="Fashion">
+			<label for="Fashion">Fashion</label><br>
+			<input type="radio" id="Sporting Goods" value="Sporting Goods">
+			<label for="Sporting Goods">Sporting Goods</label><br>
 		  </div>
 		  <button type="button" class="collapsible">Search Including</button>
 			  <div class="content">
@@ -87,7 +93,6 @@
 		  </div>
 		  <button type="button" class="collapsible">Price</button>
 			  <div class="content">
-				<br>
 				  Show Items priced from <p id="minRangeValue">0</p>
 				  <input type="range" id="min" value="0" placeholder="Min Price" min="0" max="50" oninput="minRangeValue.innerText = this.value">
 				  to<p id="maxRangeValue">50</p>
