@@ -153,6 +153,7 @@ a:active {
 div.test {
   width:auto;
   margin: auto;
+  margin-left: 30px;
   }
   
   div.block {
@@ -161,7 +162,7 @@ div.test {
   
   div.block a{
   display:inline-block; 
-  margin-left: 25px;
+  margin-left: 15px;
   }
   
   h3 {
@@ -171,4 +172,31 @@ div.test {
  .text-right {
   display:flex;
   flex-direction: row;
+ }
+
+
+ .wrapper-main {
+  width:1000px;
+  margin: 0 auto;
+ }
+
+ .item-desc-flex {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  column-gap: 60px;
+ }
+
+ .buttons {
+  position:relative;
+  bottom: -112px;
+  left: -350px;
+  display:inline;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+ }
+
+ .button-listing {
+  margin-right: 5%;
  }
