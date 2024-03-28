@@ -21,8 +21,30 @@
 		  text-align: center;
 		}
 		
-		
-		
+        .address {
+            margin-bottom: 20px;
+			align-items: center;
+            justify-content: center;
+			
+        }
+        .addressBox {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+			width: fit-content; 
+			margin: auto;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var radios = document.getElementsByName('currentAddress');
+            for (var i = 0; i < radios.length; i++) {
+                radios[i].onclick = function() {
+                    document.getElementById('currentAddress').innerText = this.nextElementSibling.innerText;
+                }
+            }
+        }
+    </script>
 		
 	</style>
     
@@ -94,8 +116,50 @@
 		</div>
 		<br>
 	<div id="body_content">
-		<h2>Home</h2>
+		<h1>Shipping Addresses</h1>
 	</div>
+
+	<div class="address">
+        <h3>Current Shipping Address:</h3> 
+		<p id="currentAddress">123 Main St, Anytown, USA</p> <!-- Replace with actual address -->
+    </div>
+
+    <div class="address">
+        <h3>Add New Address: </h3>
+        <form id="addAddressForm">
+            <textarea id="newAddress" rows="2" cols="50"></textarea><br>
+            <input type="submit" value="Add Address">
+        </form>
+    </div>
+
+    <div class="address">
+        <h3>Saved Addresses: </h3>
+        <div class="addressBox">
+            <input type="radio" name="currentAddress">
+            <span>456 Maple Ave, Somewhere, USA</span>
+            <button>Remove</button>
+        </div>
+        <div class="addressBox">
+            <input type="radio" name="currentAddress">
+            <span>789 Oak St, Elsewhere, USA</span>
+            <button>Remove</button>
+        </div>
+		<div class="addressBox">
+            <input type="radio" name="currentAddress">
+            <span>789 Oak St, Elsewhere, USA</span>
+            <button>Remove</button>
+        </div>
+		<div class="addressBox">
+            <input type="radio" name="currentAddress">
+            <span>1948 Buick Blv, Elsewhere, USA</span>
+            <button>Remove</button>
+        </div>
+		<div class="addressBox">
+            <input type="radio" name="currentAddress">
+            <span>1290 CheryWood St, Elsewhere, USA</span>
+            <button>Remove</button>
+        </div>
+    </div>
 </div>
 	
 <script src="js_1.js"></script>
