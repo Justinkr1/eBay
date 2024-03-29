@@ -143,6 +143,7 @@ a:active {
   text-align: left;
   padding-left: 25%;
 }
+
 .similar-items {
   display:flex;
   flex-direction: column;
@@ -150,7 +151,7 @@ a:active {
   margin-left: 300px;
 }
 
-div.test {
+.test {
   width:auto;
   margin: auto;
   margin-left: 30px;
@@ -164,7 +165,7 @@ div.test {
   display:inline-block; 
   margin-left: 15px;
   }
-  
+
   h3 {
   text-align: center;
   }
@@ -185,6 +186,7 @@ div.test {
   justify-content: left;
   align-items: left;
   column-gap: 60px;
+  margin-left: 10%;
  }
 
  .buttons {
@@ -199,4 +201,20 @@ div.test {
 
  .button-listing {
   margin-right: 5%;
+ }
+
+ .text-review {
+  display: inline-block;
+  text-align: left;
+  margin: 0% 0% 20% 21%;
+  width: 500px;
+  height: 50px;
+ }
+
+ .similar-item-indent {
+    margin-left: 22%;
+ }
+
+ .blocks {
+  display: block;
  }

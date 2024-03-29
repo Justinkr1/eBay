@@ -21,7 +21,20 @@
 		  text-align: center;
 		}
 		
-		
+		.container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .image-container {
+            margin: 10px;
+            text-align: center;
+            max-width: 200px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 		
 		
 	</style>
@@ -367,23 +380,27 @@
 			</div>
 
 			</div>
-			<div class="block">
+			<div class="block wrapper-main item-desc-flex">
 			<p>Name  $</p>
 			<p>Seller Rating</p>
+			<br>
+			<br>
+			<br>
+			<br>
 			<br>
 			<br>
 			</div>
 	</div>
 	</div>
 
-	<div>
-		<br>
 
-		<h2 class="similar-text">Similar Items</h2>
+	
+	<div>
+		<h2 class="similar-text ">Similar Items</h2>
 		<br>
 	</div>
-	<div class="test">
-		<div class="block">
+	<div class="test ">
+		<div class="block similar-item-indent">
 		<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images">
 	</div>
 		<div class="block">
@@ -398,16 +415,24 @@
 	<div class="block">
 		<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images">
 	</div>
+	<br>
+	<br>
+	</div>
+
+	<div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h2 class="similar-text">Reviews</h2>
+		<input  class="text-review similar-item-indent" type="text-box" placeholder="Review of Item" style="text-align:justify;" id="review">
 	</div>
 
 
-
-
-
-
-
-
-</div>
 	
 <script src="js_1.js"></script>
 </body>
