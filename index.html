@@ -21,6 +21,20 @@
 		  text-align: center;
 		}
 		
+		.container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .image-container {
+            margin: 10px;
+            text-align: center;
+            max-width: 200px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 		
 		
 	</style>
@@ -356,56 +370,87 @@
 	<div id="body_content">
 		<h2>Home</h2>
 		<br>
-		<h2 class="headings">Top Deals</h2>
 		<br>
 	</div>
-		<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-		<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-		<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-		<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-		<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-	<div>
-		<br>
-		<h2 class="headings">My Listings</h2>
-		<br>
-	</div>
-	<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-	<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-	<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-	<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-	<a href="item_listing_customer.html"><img src="https://placehold.jp/150x150.png" class="home-images"></a>
-<div>
+
+	<div class="container">
+        <div class="image-container">
+			<h2 style="text-align: left;margin-bottom:12px;">Top Deals</h2>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 1">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+        <div class="image-container">
+			<h3 style="visibility: hidden;">Placeholder Header</h3>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 2">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+        <div class="image-container">
+			<h3 style="visibility: hidden;">Placeholder Header</h3>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 3">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+		<div class="image-container">
+			<h3 style="visibility: hidden;">Placeholder Header</h3>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 2">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+        <div class="image-container">
+			<h3 style="visibility: hidden;">Placeholder Header</h3>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 3">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+    </div>
+
+	<div class="container">
+        <div class="image-container">
+			<h2 style="text-align: left; margin-bottom:12px;">Similar Items</h2>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 1">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+        <div class="image-container">
+			<h3 style="visibility: hidden;">Placeholder Header</h3>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 2">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+        <div class="image-container">
+			<h3 style="visibility: hidden;">Placeholder Header</h3>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 3">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+		<div class="image-container">
+			<h3 style="visibility: hidden;">Placeholder Header</h3>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 2">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+        <div class="image-container">
+			<h3 style="visibility: hidden;">Placeholder Header</h3>
+            <a href="item_listing_customer.html">
+                <img src="https://placehold.jp/150x150.png" alt="Image 3">
+                <p>Item Name, Desc and Price</p>
+            </a>
+        </div>
+    </div>
 
 	</div>
 
-<!--
-<select id="mySelect" onchange="goToPage2()">
-	<option value="">Categories</option>
-	<option value="Motors">Motors</option>
-	<option value="Electronics">Electronics</option>
-	<option value="Collectibles">Collectibles</option>
-	<option value="Home & Garden">Home & Garden</option>
-	<option value="Fashion">Fashion</option>
-	<option value="Sporting Goods">Sporting Goods</option>
-</select>
-
-<script>
-	function goToPage2() {
-		// Get the selected option
-		var selectElement = document.getElementById("mySelect");
-		var selectedOption = selectElement.options[selectElement.selectedIndex].value;
-
-		// If an option is selected (not the placeholder), store it and go to Page 2
-		if (selectedOption) {
-			// Store the selected option in local storage
-			localStorage.setItem("selectedOption", selectedOption);
-
-			// Redirect to Page 2
-			window.location.href = "categories.html";
-		}
-	}
-</script>
--->
 </body>
 </div>
 	
