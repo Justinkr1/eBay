@@ -327,22 +327,6 @@
 		<option value="Sporting Goods">Sporting Goods</option>
 	</select>
 	
-	<script>
-		function goToPage2() {
-			// Get the selected option
-			var selectElement = document.getElementById("mySelect");
-			var selectedOption = selectElement.options[selectElement.selectedIndex].value;
-	
-			// If an option is selected (not the placeholder), store it and go to Page 2
-			if (selectedOption) {
-				// Store the selected option in local storage
-				localStorage.setItem("selectedOption", selectedOption);
-	
-				// Redirect
-				window.location.href = "categories.html";
-			}
-		}
-	</script>
 	<!--Category Dropdown Button Ends Here-->
 
 	<input type="search" id="site-search" name="q">
@@ -362,14 +346,7 @@
 				  <a href="not_yet_implemented.html">My Ebay</a>
 				</div>
 			  </div>
-			<!--<input type="button" value="Account" style="height:50px; width:100px"> 
-			<select name="Account" id="Account" style="height:50px; width:100px; cursor: pointer; text-align: center;">
-				<option>Account</option>
-				<option>Change Username</option>
-				<option>Change Addresses</option>
-				<option>Settings</option>
-				<option>My Ebay</option>
-			</select> -->
+
 		</div>
 		<br>
 	<div id="body_content">
@@ -381,35 +358,35 @@
         <div class="image-container">
 			<h3 style="text-align: left;">Features:</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 1">
+                <img src="Item Sold.jpg" alt="Image 1">
                 <p>Item Description and Prices</p>
             </a>
         </div>
         <div class="image-container">
 			<h3 style="visibility: hidden;">Placeholder Header</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 2">
+                <img src="Item Sold.jpg" alt="Image 2">
                 <p>Item Description and Prices</p>
             </a>
         </div>
         <div class="image-container">
 			<h3 style="visibility: hidden;">Placeholder Header</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 3">
+                <img src="Item Sold.jpg" alt="Image 3">
                 <p>Item Description and Prices</p>
             </a>
         </div>
 		<div class="image-container">
 			<h3 style="visibility: hidden;">Placeholder Header</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 2">
+                <img src="Item Sold.jpg" alt="Image 2">
                 <p>Item Description and Prices</p>
             </a>
         </div>
         <div class="image-container">
 			<h3 style="visibility: hidden;">Placeholder Header</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 3">
+                <img src="Item Sold.jpg" alt="Image 3">
                 <p>Item Description and Prices</p>
             </a>
         </div>
@@ -419,75 +396,41 @@
         <div class="image-container">
 			<h3 style="text-align: left;">For You:</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 1">
+                <img src="Item Sold.jpg" alt="Image 1">
                 <p>Item Description and Prices</p>
             </a>
         </div>
         <div class="image-container">
 			<h3 style="visibility: hidden;">Placeholder Header</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 2">
+                <img src="Item Sold.jpg" alt="Image 2">
                 <p>Item Description and Prices</p>
             </a>
         </div>
         <div class="image-container">
 			<h3 style="visibility: hidden;">Placeholder Header</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 3">
+                <img src="Item Sold.jpg" alt="Image 3">
                 <p>Item Description and Prices</p>
             </a>
         </div>
 		<div class="image-container">
 			<h3 style="visibility: hidden;">Placeholder Header</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 2">
+                <img src="Item Sold.jpg" alt="Image 2">
                 <p>Item Description and Prices</p>
             </a>
         </div>
         <div class="image-container">
 			<h3 style="visibility: hidden;">Placeholder Header</h3>
             <a href="item_listing_customer.html">
-                <img src="Images/Item Sold.jpg" alt="Image 3">
+                <img src="Item Sold.jpg" alt="Image 3">
                 <p>Item Description and Prices</p>
             </a>
         </div>
     </div>
-
-
-	
-
 	
 </div>
-
-
-
-
-<!--
-<div id="content"></div> 
-    <script>
-        // Define your variables here
-        var imgSrc = "Item Sold.jpg"; // image path
-        var description = "This is a description"; // description
-        var displayContent = true; // set this to true or false ot make visible or not
-
-        // Get the content div
-        var contentDiv = document.getElementById("content");
-
-        // Check if displayContent is true
-        if (displayContent) {
-            // Create img element
-            var img = document.createElement("img");
-            img.src = imgSrc;
-
-            // Create p element
-            var p = document.createElement("p");
-            p.textContent = description;
-
-            // Append elements to content div
-            contentDiv.appendChild(img);
-            contentDiv.appendChild(p);
-        }
-    </script>-->
 
 <script src="js_1.js"></script>
 </body>
