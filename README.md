@@ -14,10 +14,9 @@ Specific Task Instructions:
 4. Change the Listing to “buy it” with a lowest of $100
 5. Then End the listing
 6. Find the 1 star ratings of a seller and leave a review
-7. Find a product and place a bid of $.50
+7. Find a product and place a bid
 8. Perform an advanced search and change condition to new and max price to $50
 9. Buy Something
-10. Find the shipping address
 11. Initiate contact with an automated help agent for any topic.
 12. Initiate Contact with a Seller
 
