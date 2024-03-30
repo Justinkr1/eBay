@@ -218,3 +218,13 @@ a:active {
  .blocks {
   display: block;
  }
+
+ .centered {
+  max-width: fit-content;
+  margin-left: 16%;
+ }
+
+
+ .button-seller {
+  margin-right: 20%;
+ }

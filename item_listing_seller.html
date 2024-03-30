@@ -20,6 +20,21 @@
 		  z-index: 1010101010;
 		  text-align: center;
 		}
+
+		.container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .image-container {
+            margin: 10px;
+            text-align: center;
+            max-width: 200px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 		
 		
 		
@@ -83,18 +98,36 @@
 				  <a href="not_yet_implemented.html">My Ebay</a>
 				</div>
 			  </div>
-			<!--<input type="button" value="Account" style="height:50px; width:100px"> 
-			<select name="Account" id="Account" style="height:50px; width:100px; cursor: pointer; text-align: center;">
-				<option>Account</option>
-				<option>Change Username</option>
-				<option>Change Addresses</option>
-				<option>Settings</option>
-				<option>My Ebay</option>
-			</select> -->
 		</div>
 		<br>
 	<div id="body_content">
 		<h2>Item Listing Seller-View</h2>
+	</div>
+
+	
+	<div>
+		
+	</div>
+	
+	
+
+	<div class="container centered">
+		<div class="wrapper-main item-desc-flex">
+			<img src="https://placehold.jp/150x150.png" style="width:300px;height:300px;">
+			<span>Item Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatibus dolorem? Animi laborum officiis reiciendis tempore exercitationem ducimus corporis in voluptas ea quod quae alias, aut quisquam officia saepe quia!
+				
+			</span>
+			<div class="buttons">
+				<input type="button"  class="button-seller" id="Buy/Bid" value="Buy/Bid" style="width:150px;height:75px; cursor: pointer;">
+				<a href="seller_profile.html"><input type="button" value="Contact Seller" style="width:150px;height:75px;  cursor: pointer;"></a>
+			</div>
+
+			</div>
+			<div class="block wrapper-main item-desc-flex">
+			<p>Name  $</p>
+			<p>Seller Rating</p>
+			<br>
+			</div>
 	</div>
 
 	<div>
@@ -143,74 +176,33 @@
 	</div>
 
 	<!-- Tab content -->
+	<div>
 	<div id="5 Star" class="tabcontent">
 	  <h3>5 Star</h3>
-	  <div class="review">5 Star Review</div><br>
-	  <div class="review">5 Star Review</div><br>
-	  <div class="review">5 Star Review</div><br>
-	  <div class="review">5 Star Review</div><br>
-	  <div class="review">5 Star Review</div><br>
-	  <div class="review">5 Star Review</div><br>
 	  <div class="review">5 Star Review</div><br>
 	</div>
 
 	<div id="4 Star" class="tabcontent">
 	  <h3>4 Star</h3>
 	  <div class="review">4 Star Review</div><br>
-	  <div class="review">4 Star Review</div><br>
-	  <div class="review">4 Star Review</div><br>
-	  <div class="review">4 Star Review</div><br>
-	  <div class="review">4 Star Review</div><br>
-	  <div class="review">4 Star Review</div><br>
-	  <div class="review">4 Star Review</div><br>
 	</div>
 
 	<div id="3 Star" class="tabcontent">
 	  <h3>3 Star</h3>
 	  <div class="review">3 Star Review</div><br>
-	  <div class="review">3 Star Review</div><br>
-	  <div class="review">3 Star Review</div><br>
-	  <div class="review">3 Star Review</div><br>
-	  <div class="review">3 Star Review</div><br>
-	  <div class="review">3 Star Review</div><br>
-	  <div class="review">3 Star Review</div><br>
 	</div>
 	<div id="2 Star" class="tabcontent">
 	  <h3>2 Star</h3>
-	  <div class="review">2 Star Review</div><br>
-	  <div class="review">2 Star Review</div><br>
-	  <div class="review">2 Star Review</div><br>
-	  <div class="review">2 Star Review</div><br>
-	  <div class="review">2 Star Review</div><br>
-	  <div class="review">2 Star Review</div><br>
 	  <div class="review">2 Star Review</div><br>
 	</div>
 	<div id="1 Star" class="tabcontent">
 	  <h3>1 Star</h3>
 	  <div class="review">1 Star Review</div><br>
-	  <div class="review">1 Star Review</div><br>
-	  <div class="review">1 Star Review</div><br>
-	  <div class="review">1 Star Review</div><br>
-	  <div class="review">1 Star Review</div><br>
-	  <div class="review">1 Star Review</div><br>
-	  <div class="review">1 Star Review</div><br>
 	</div>
   <div id="Minimize" class="tabcontent">
   </div>
   <br>
-
-
-
-
-<!--
-	<div class="blocks">
-		<h2 class="similar-text">Reviews</h2>
-		<div class="block similar-item-indent">
-		<input class="text-review similar-item-indent" type="text-box" placeholder="Review of Item" style="text-align:justify;" id="review">
-		</div>
-	</div> -->
-
-
+  </div>
 
 </div>
 	
