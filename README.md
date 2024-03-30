@@ -5,8 +5,6 @@ This version is very basic, but it works to prove oiut point.
 For Particiapants:
 For this test, we will have you perform a variety of different tasks. Please note that some features don't work, but the features we are having you test work.
 
-In order to run this you will need visual studio code. You can then simply go to the "Run" tab and press "Start Debugging". It will ask which website you'd like to use, please select the website of your choice, but please not which one you used.
-
 Specific Task Instructions:
 1. Find the the Change Username Button and press it.
 2. Search for Legos and set location to Worldwide
