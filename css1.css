@@ -197,9 +197,9 @@ div.test {
   bottom: -112px;
   left: -350px;
   display:inline;
-  margin:auto;
+  margin: auto;
   display:flex;
-  flex-direction: row;
+  padding: 10px 10px;
  }
 
  .button-listing {
@@ -299,6 +299,6 @@ display: block;
 
 
  .button-seller {
-  margin-right: 20%;
-  padding:15%;
+  margin: 10px 15px;
+  display: inline;
  }
