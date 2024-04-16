@@ -429,8 +429,16 @@
 		<br>
 		<h2 class="similar-text">Reviews</h2>
 		<form>
-		<input  class="text-review similar-item-indent" type="text-box" placeholder="Review of Item" style="text-align:justify;margin-left: -10%;" id="review">
-		<input type="submit" id="review-submit" name="review-submit" style="display:block;margin-bottom:20%;margin-left:29%;margin-top:-19%;">
+		<input  class="text-review similar-item-indent" type="text-box" placeholder="Review of Item" style="text-align:justify;margin-left: -7%;" id="review">
+		<label for="star-rating">Choose a rating:</label> 
+    <select name="star-rating" id="stars"> 
+        <option value="5">5</option> 
+        <option value="4">4</option> 
+        <option value="3">3</option> 
+        <option value="2">2</option> 
+		<option value="1">1</option> 
+    </select>
+		<input type="submit" id="review-submit" name="review-submit" style="display:block;margin-bottom:20%;margin-left:25%;margin-top:-19%;">
 		</form>
 
 	</div> 
