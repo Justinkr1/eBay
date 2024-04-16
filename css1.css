@@ -302,3 +302,9 @@ display: block;
   margin: 10px 8px;
   display: inline;
  }
+
+ p {
+  font-family: 'Helvetica';
+  font-size: medium;
+  font-weight: bold;
+ }
