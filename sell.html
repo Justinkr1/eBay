@@ -9,7 +9,8 @@
 		  float: left;
 		  height: 100%;
 		  z-index: 1010101010;
-
+		  outline-color: black;
+		  outline-style: inset;
 		}
 
 		#col-2 {
@@ -277,7 +278,8 @@
 				<button onclick="confirmAction()">Delete</button>
 
 				<script>
-					function confirmAction() { //Popup Confirmation
+					function confirmAction() { 
+						//Popup Confirmation
 						const userConfirmed = confirm("Are you sure you want to delete the listing?");
 
 						if (userConfirmed) { // User clicked "OK"
@@ -286,7 +288,7 @@
 						} else { // User clicked "Cancel"
 							alert("Listing was not deleted");
 						}
-					}
+						}
 				</script>
 			</div>
 		</div>
